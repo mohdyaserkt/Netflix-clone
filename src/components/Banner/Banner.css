@@ -1,0 +1,57 @@
+.Banner {
+  background-image: url("https://image.tmdb.org/t/p/original/5MApdDAuUA6DzUPDMcdplsidvwV.jpg");
+  background-size: cover;
+  height: 820px;
+  color: white;
+}
+.Bnr_content {
+  padding-top: 350px;
+  height: 190px;
+  margin-left: 30px;
+}
+
+.Bnr_title {
+  font-size: 4rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.Bnr_btn {
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.Bnr_btn:hover {
+  color: black;
+  background-color: white;
+}
+.Bnr_description {
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  height: 80px;
+  max-width: 360px;
+}
+
+.Bnr_fadebtm {
+  margin-top: 163px;
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
